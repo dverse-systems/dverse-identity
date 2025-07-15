@@ -1,0 +1,15 @@
+[package]
+name = "dverse-identity"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Cryptographic primitives
+ed25519-dalek = { version = "2.0.0", features = ["rand_core"] }
+rand_core = { version = "0.6.4", features = ["std"] } # For OsRng
+sha2 = "0.10" # For hashing if needed for other parts, or for DID derivation if not directly from pubkey
+multibase = "0.9" # For encoding the public key into the DID string
+bs58 = "0.5" # For Base58 encoding, used by multibase
+
+# Serialization/Deserialization (for internal use or if we expose key structs)
+serde = { version = "1.0", features = ["derive"] }
