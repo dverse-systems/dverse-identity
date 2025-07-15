@@ -1,7 +1,5 @@
 # dverse-identity
 
-![D-Verse Logo](https://raw.githubusercontent.com/dverse-systems/dverse-identity/main/assets/dverse-logo.png) <!-- Placeholder for a logo -->
-
 **Self-Sovereign Identity for the Decentralized Verse.**
 
 `dverse-identity` is a foundational module within the D-Verse framework, providing robust and secure primitives for managing decentralized identities (DIDs). It empowers users and applications with self-sovereign control over their digital presence, enabling verifiable interactions without reliance on centralized authorities.
